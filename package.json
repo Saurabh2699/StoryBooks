@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=production node app",
-    "dev": "cross-env NODE_ENV=development npx nodemon app"
+    "start": "node app",
+    "dev": "npx nodemon app"
   },
   "keywords": [],
   "author": "Saurabh Khaparey",
